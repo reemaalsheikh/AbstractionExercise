@@ -26,9 +26,6 @@ public abstract class Product {
         this.price = price;
     }
 
-    public double getDiscount(){
-
-       return price * 0.15;
-    }
+    public abstract double getDiscount();
 
 }
